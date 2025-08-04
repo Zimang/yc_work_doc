@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">AI音效</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="aiyx">AI音效</string>
+    <string name="cj">采集</string>
+    <string name="bb">背包</string>
+    <string name="kscj">开始采集</string>
+    <string name="zt">暂停</string>
+    <string name="jxcj">继续采集</string>
+    <string name="cxcj">重新采集</string>
+    <string name="bgn">布谷鸟</string>
+    <string name="hs">河水</string>
+    <string name="sy">树叶</string>
+    <string name="lr">路人</string>
+    <string name="wc">完成</string>
+    <string name="syps">树叶婆娑</string>
+    <string name="xs">溪水</string>
+    <string name="yxyy">将此音效应用于：</string>
+    <string name="qran">确认按钮</string>
+    <string name="yltj">音量调节</string>
+    <string name="cz">重置</string>
+    <string name="yyy">已应用</string>
+    <string name="yyld">音乐律动</string>
+    <string name="yym_zzmd">庄周梦蝶</string>
+    <string name="yym_zyx">周央希</string>
+    <string name="ldtj_A">ARHUD亮度调节</string>
+    <string name="gdtj_A">ARHUD高度调节</string>
+    <string name="ldtj_P">PHUD亮度调节</string>
+    <string name="pd1">片段1</string>
+    <string name="pd2">片段2</string>
+    <string name="pd3">片段3</string>
+    <string name="ajy">按键音</string>
+    <string name="kjqjy">空间全景音</string>
+    <string name="gj">轨迹：</string>
+    <string name="yl">音量：</string>
+    <string name="wrzj">围绕主驾</string>
+    <string name="chwq">从后往前</string>
+    <string name="zdywz">自定义位置</string>
+
+    <string name="yx_1">鸟叫</string>
+    <string name="yx_2">自行车</string>
+    <string name="yx_3">鸟群</string>
+    <string name="yx_4">湖边</string>
+    <string name="yx_5">瀑布</string>
+    <string name="yx_6">丛林</string>
+    <string name="yx_7">跑步</string>
+    <string name="yx_8">奶牛</string>
+
+    <string name="yx_1_tag">涧鸣</string>
+    <string name="yx_2_tag">铃韵</string>
+    <string name="yx_3_tag">振翅</string>
+    <string name="yx_4_tag">雾漪</string>
+    <string name="yx_5_tag">飞流</string>
+    <string name="yx_6_tag">丛林</string>
+    <string name="yx_7_tag">痕跃</string>
+    <string name="yx_8_tag">牧喃</string>
+
+</resources>

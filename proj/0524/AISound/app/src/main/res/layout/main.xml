@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal"
+    android:paddingRight="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="404dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/nav_yx"
+            android:layout_width="284dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/yx_411_1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="44dp"
+                android:src="@mipmap/yx_411_1_1" />
+
+            <Button
+                style="@style/BaseButtonStyle"
+                android:layout_marginTop="20dp"
+                android:text="@string/aiyx"
+                android:textFontWeight="400"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav_cj"
+            android:layout_width="284dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            android:background="@mipmap/yx_411_2"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/nav_cj_bt"
+                style="@style/SelectedButtonStyle"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:text="@string/cj" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav_bb"
+            android:layout_width="284dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/nav_bb_bt"
+                style="@style/BaseButtonStyle"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:text="@string/bb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav_cj_action_and_time"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/nav_cj_action"
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="54dp"
+                android:background="@mipmap/yx_413_1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/nav_cj_action_iv1"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@mipmap/yx_412_2_1"></ImageView>
+
+                <TextView
+                    android:id="@+id/nav_cj_action_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zt"
+                    android:textColor="#706dff"
+                    android:textSize="32dp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nav_cj_progress_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:13"
+                    android:textColor="#FFFFFF"
+                    android:textFontWeight="400"
+                    android:textSize="32dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="/"
+                    android:textColor="#FFFFFF"
+                    android:textFontWeight="400"
+                    android:textSize="32dp" />
+
+                <TextView
+                    android:id="@+id/nav_cj_total_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03:30"
+                    android:textColor="#99FFFFFF"
+                    android:textFontWeight="400"
+                    android:textSize="32dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 采集 -->
+    <include
+        layout="@layout/m_411"
+        android:visibility="visible" />
+
+    <!-- 采集中 -->
+    <include
+        layout="@layout/m_412"
+        android:visibility="gone" />
+
+    <!-- 采集片段 -->
+    <include
+        layout="@layout/m_414"
+        android:visibility="gone" />
+
+    <!-- 背包项目列表 -->
+    <include
+        layout="@layout/m_415"
+        android:visibility="gone" />
+
+    <!-- 背包项目的详情(按键音) -->
+    <include
+        layout="@layout/m_416"
+        android:visibility="gone" />
+
+    <!-- 背包项目的详情(空间全景音) -->
+    <include
+        layout="@layout/m_417"
+        android:visibility="gone" />
+
+</LinearLayout>

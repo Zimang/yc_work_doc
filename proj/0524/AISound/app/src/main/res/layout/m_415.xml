@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/m_415"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/m_415_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:translationZ="2dp">
+
+        <LinearLayout
+            android:id="@+id/m_415_ajy"
+            android:layout_width="200dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="64dp"
+            android:background="@mipmap/yx_416_6_1"
+            android:orientation="vertical"
+            android:translationZ="2dp">
+
+            <Button
+                android:id="@+id/m_415_ajy_bt"
+                style="@style/SelectedButtonStyle"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/ajy"
+                android:textFontWeight="400"
+                android:textSize="24sp"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/m_415_kjqjy"
+            android:layout_width="200dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="64dp"
+            android:background="@mipmap/yx_416_6_2"
+            android:orientation="vertical"
+            android:translationZ="2dp">
+
+            <Button
+                android:id="@+id/m_415_kjqjy_bt"
+                style="@style/BaseButtonStyle"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/kjqjy"
+                android:textFontWeight="400"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/m_415_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:translationZ="1dp"
+        android:visibility="visible">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/m_415_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingStart="100dp"
+            android:paddingEnd="100dp" />
+    </FrameLayout>
+</FrameLayout>

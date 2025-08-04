@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">AiSound</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="aiyx">AI Sound effects</string>
+    <string name="cj">Collect</string>
+    <string name="bb">Backpack</string>
+    <string name="kscj">Start collecting</string>
+    <string name="zt">Pause</string>
+    <string name="jxcj">Continue collecting</string>
+    <string name="cxcj">Recollect</string>
+    <string name="bgn">Cuckoo</string>
+    <string name="hs">River</string>
+    <string name="sy">Leaves</string>
+    <string name="lr">Passersby</string>
+    <string name="wc">OK</string>
+    <string name="syps">Dancing leaves</string>
+    <string name="xs">Stream</string>
+    <string name="yxyy">Apply this sound effect to:</string>
+    <string name="qran">OK button</string>
+    <string name="yltj">Volume adjustment</string>
+    <string name="cz">Reset</string>
+    <string name="yyy">Applied</string>
+    <string name="yyld">Music rhythm</string>
+    <string name="yym_zzmd">The Butterfly Dream</string>
+    <string name="yym_zyx">Zhou Yangxi</string>
+    <string name="ldtj_A">ARHUD brightness adjustment</string>
+    <string name="gdtj_A">ARHUD height adjustment</string>
+    <string name="ldtj_P">PHUD brightness adjustment</string>
+    <string name="pd1">Fragment 1</string>
+    <string name="pd2">Fragment 2</string>
+    <string name="pd3">Fragment 3</string>
+    <string name="ajy">Key tone</string>
+    <string name="kjqjy">Spatial sound</string>
+    <string name="gj">Trajectory:</string>
+    <string name="yl">Volume:</string>
+    <string name="wrzj">Surrounding main driver</string>
+    <string name="chwq">From back to front</string>
+    <string name="zdywz">Custom location</string>
+
+    <string name="yx_1">Bird chirping</string>
+    <string name="yx_2">Bicycle</string>
+    <string name="yx_3">Flock of birds</string>
+    <string name="yx_4">Lakeside</string>
+    <string name="yx_5">Waterfall</string>
+    <string name="yx_6">Jungle</string>
+    <string name="yx_7">Running</string>
+    <string name="yx_8">Cow</string>
+
+    <string name="yx_1_tag">Stream</string>
+    <string name="yx_2_tag">Bell</string>
+    <string name="yx_3_tag">Wings</string>
+    <string name="yx_4_tag">Mist</string>
+    <string name="yx_5_tag">Waterfall</string>
+    <string name="yx_6_tag">Jungle</string>
+    <string name="yx_7_tag">Leap</string>
+    <string name="yx_8_tag">Pasture</string>
+</resources>

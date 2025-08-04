@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:id="@+id/gallery_item"
+    android:gravity="center">
+ 
+
+
+        <FrameLayout
+            android:id="@+id/gallery_image_bg"
+            android:background="@mipmap/yx_415_6"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/gallery_image"
+                android:layout_width="342dp"
+                android:layout_height="456dp"
+                android:src="@mipmap/yx_415_5_1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:id="@+id/gallery_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:text="布谷鸟"
+                android:layout_gravity="bottom|left"
+                android:layout_margin="32px" />
+
+            <ImageView
+                android:id="@+id/gallery_btn"
+                android:translationZ="3dp"
+                android:layout_width="50dp"
+                android:layout_height="26dp"
+                android:layout_gravity="bottom|right"
+                android:background="@mipmap/yx_417_9_1"
+                android:layout_margin="32px" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/gallery_mirror"
+            android:layout_width="342dp"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/yx_415_5_3" />
+
+ 
+
+</LinearLayout>

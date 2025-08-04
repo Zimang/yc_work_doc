@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/m_411"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/m_411_kscj"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:background="@mipmap/yx_411_4"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/m_411_kscj_bt"
+            style="@style/SelectedButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textFontWeight="500"
+            android:text="@string/kscj" />
+    </LinearLayout>
+</LinearLayout>

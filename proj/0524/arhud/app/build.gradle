@@ -1,0 +1,58 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    signingConfigs {
+        debug {
+            storeFile = file("..\\appSignKey\\platform.jks")
+            storePassword '123456789'
+            keyAlias '123456789'
+            keyPassword '123456789'
+        }
+        Release {
+            storeFile file('..\\appSignKey\\platform.jks')
+            storePassword '123456789'
+            keyAlias '123456789'
+            keyPassword '123456789'
+        }
+    }
+    namespace 'com.desaysv.arhud'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.desaysv.arhud"
+        minSdk 32
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation libs.appcompat
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.media:media:1.6.0")
+    implementation("com.google.android.exoplayer:exoplayer:2.18.2")
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    api("com.github.tony19:logback-android:2.0.0")
+}

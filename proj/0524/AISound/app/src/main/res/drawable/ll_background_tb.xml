@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Blurred background with gradient -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="90"
+                android:endColor="#00706dff"
+                android:startColor="#00706dff"
+                android:type="linear" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+
+    <!-- Semi-transparent overlay for blur effect -->
+    <item>
+        <shape>
+            <solid android:color="#053706D4" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+
+    <!-- Inner border -->
+    <item android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp">
+        <shape>
+            <stroke
+                android:dashWidth="1dp"
+                android:color="#33706dff" />
+            <gradient
+                android:angle="90"
+                android:endColor="#00706dff"
+                android:startColor="#00706dff"
+                android:type="linear" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+</layer-list>

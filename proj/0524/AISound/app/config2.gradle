@@ -1,0 +1,43 @@
+def projectName = 'SSM2' // 项目名称
+def moduleName = 'aisound' // 应用名称
+
+def date = new Date().format('yyMMddHHmm')
+def versionCount = 1
+def commitId = "local"
+def currentTagId = "v1.0"
+def tag = currentTagId
+
+android {
+    defaultConfig {
+        buildConfigField "String", "tag_id", "\"${tag}\""
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('..\\appSignKey\\platform.jks')
+            storePassword '123456789'
+            keyAlias '123456789'
+            keyPassword '123456789'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        debug {
+            storeFile file('..\\appSignKey\\platform.jks')
+            storePassword '123456789'
+            keyAlias '123456789'
+            keyPassword '123456789'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            if (variant.buildType.name == 'debug') {
+                outputFileName = "${moduleName}-debug.apk"
+            } else {
+                outputFileName = "${moduleName}.apk"
+            }
+        }
+    }
+}

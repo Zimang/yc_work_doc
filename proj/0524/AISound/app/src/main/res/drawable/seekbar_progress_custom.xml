@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- custom_progress.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景 -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <size android:height="56dp" />
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+    
+    <!-- 进度 -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <bitmap
+                android:src="@drawable/progress_bar_bg"
+                android:gravity="fill" />
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 通用样式 -->
+
+    <!-- 基础按钮样式 -->
+    <style name="SelectedButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:fontFamily">@font/harmonyos_sans</item>
+        <item name="android:textColor">#706dff</item>
+        <item name="android:lineHeight">32dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="BaseButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:fontFamily">@font/harmonyos_sans</item>
+        <item name="android:textColor">#99ffffff</item>
+        <item name="android:lineHeight">32dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>
